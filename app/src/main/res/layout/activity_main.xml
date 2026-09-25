@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#F8F9FA">
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TokenX"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#172B4D"
+        android:gravity="center" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Welcome!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#172B4D"
+        android:gravity="center" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Manage your mess tokens easily and securely."
+        android:textSize="15sp"
+        android:textColor="#6B7280"
+        android:gravity="center" />
+
+    <!-- SIGN IN Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="55dp"
+        android:text="SIGN IN"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2563EB" />
+
+    <!-- Sign In Description -->
+    <TextView
+        android:id="@+id/tvSignInDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Already have an account?"
+        android:textSize="13sp"
+        android:textColor="#6B7280"
+        android:gravity="center" />
+
+    <!-- SIGN UP Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="SIGN UP"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#2563EB"
+        android:backgroundTint="#E8F0FE" />
+
+    <!-- Sign Up Description -->
+    <TextView
+        android:id="@+id/tvSignUpDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="New user? Create an account"
+        android:textSize="13sp"
+        android:textColor="#6B7280"
+        android:gravity="center" />
+
+</LinearLayout>
